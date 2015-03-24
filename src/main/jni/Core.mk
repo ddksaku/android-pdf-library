@@ -1,8 +1,8 @@
 LOCAL_PATH := $(call my-dir)
+MY_ROOT := $(LOCAL_PATH)
+
 
 include $(CLEAR_VARS)
-
-MY_ROOT := $(LOCAL_PATH)
 
 ifeq ($(TARGET_ARCH),arm)
 LOCAL_CFLAGS += -DARCH_ARM -DARCH_THUMB -DARCH_ARM_CAN_LOAD_UNALIGNED
@@ -45,19 +45,20 @@ ifdef SSL_BUILD
 LOCAL_C_INCLUDES += $(LOCAL_PATH)/thirdparty/openssl/include
 endif
 
-LOCAL_MODULE    := mupdfcore
+LOCAL_MODULE:= mupdfcore
 LOCAL_SRC_FILES := \
-	$(wildcard $(MY_ROOT)/source/fitz/*.c) \
-	$(wildcard $(MY_ROOT)/source/pdf/*.c) \
-	$(wildcard $(MY_ROOT)/source/xps/*.c) \
-	$(wildcard $(MY_ROOT)/source/cbz/*.c) \
-	$(wildcard $(MY_ROOT)/source/img/*.c) \
-	$(wildcard $(MY_ROOT)/source/tiff/*.c)
+	$(wildcard $(LOCAL_PATH)/source/fitz/*.c)\
+	$(wildcard $(LOCAL_PATH)/source/pdf/*.c)\
+	$(wildcard $(LOCAL_PATH)/source/xps/*.c)\
+	$(wildcard $(LOCAL_PATH)/source/cbz/*.c)\
+	$(wildcard $(LOCAL_PATH)/source/img/*.c)\
+	$(wildcard $(LOCAL_PATH)/source/tiff/*.c)
 LOCAL_SRC_FILES += \
-	$(MY_ROOT)/source/pdf/js/pdf-js.c \
-	$(MY_ROOT)/source/pdf/js/pdf-jsimp-mu.c
+	$(LOCAL_PATH)/source/pdf/js/pdf-js.c \
+	$(LOCAL_PATH)/source/pdf/js/pdf-jsimp-mu.c
+
 ifdef MEMENTO
-LOCAL_SRC_FILES += $(MY_ROOT)/source/fitz/memento.c
+    LOCAL_SRC_FILES += $(MY_ROOT)/source/fitz/memento.c
 endif
 
 LOCAL_LDLIBS    := -lm -llog -ljnigraphics

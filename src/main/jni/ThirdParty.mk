@@ -2,8 +2,6 @@ LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
 
-MY_ROOT := ..
-
 LOCAL_C_INCLUDES := \
 	$(LOCAL_PATH)/thirdparty/jbig2dec \
 	$(LOCAL_PATH)/thirdparty/openjpeg/libopenjpeg \
@@ -27,7 +25,7 @@ ifdef MEMENTO
 LOCAL_CFLAGS += -DMEMENTO -DMEMENTO_LEAKONLY
 endif
 
-LOCAL_MODULE := mupdfthirdparty
+LOCAL_MODULE:= mupdfthirdparty
 LOCAL_SRC_FILES := \
 	$(LOCAL_PATH)/thirdparty/mujs/one.c \
 	$(LOCAL_PATH)/thirdparty/jbig2dec/jbig2.c \

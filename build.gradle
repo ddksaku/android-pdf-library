@@ -1,12 +1,12 @@
 apply plugin: 'com.android.library'
 
-
 buildscript {
     repositories {
         jcenter()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:1.0.+'
+        classpath 'com.android.tools.build:gradle:1.1.3'
+
     }
 }
 
@@ -23,7 +23,9 @@ android {
 
         ndk {
             moduleName "Mupdf"
-            ldLibs "log", "mupdf"
+          //  ldLibs "log", "mupdf"
+            cFlags "-DANDROID_NDK -DDISABLE_IMPORTGL"
+            stl "stlport_static"
         }
     }
 
@@ -40,12 +42,18 @@ android {
         jni.srcDirs = [] //disable automatic ndk-build call
     }
 
+}
 
+    task showClasspath << {
+        buildscript.configurations.classpath.each { println it.name }
+    }
     task buildNative(type: Exec, description: 'Compile JNI source via NDK') {
 //        def ndkDir = android.plugin.ndkFolder
         def ndkDir = plugins.getPlugin('com.android.library').sdkHandler.ndkFolder
-        if (System.properties[Locale.ROOT].toLowerCase().contains('windows')){
-            commandLine "$ndkDir/ndk-build.cmd",
+
+//        if (System.properties[Locale.ROOT].toLowerCase().contains('windows')){
+        if (System.properties['os.name'].toLowerCase().contains('windows')){
+        commandLine "$ndkDir/ndk-build.cmd",
                     '-C', file('src/main/jni').absolutePath,
                     '-j', Runtime.runtime.availableProcessors(),
                     'all', 'NDK_DEBUG=1'
@@ -76,7 +84,7 @@ android {
         compileTask -> compileTask.dependsOn buildNative
     }
 
-}
+
 
 //dependencies {
 //    compile fileTree(dir: 'libs', include: ['*.jar'])
