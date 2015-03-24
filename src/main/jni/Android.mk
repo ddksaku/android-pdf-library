@@ -4,18 +4,18 @@ ifdef NDK_PROFILER
 include android-ndk-profiler.mk
 endif
 
-
-
 include $(LOCAL_PATH)/Core.mk
 include $(LOCAL_PATH)/ThirdParty.mk
+
+
 
 include $(CLEAR_VARS)
 
 LOCAL_C_INCLUDES := \
-	jni/andprof \
-	$(LOCAL_PATH)/include \
-	$(LOCAL_PATH)/source/fitz \
-	$(LOCAL_PATH)/source/pdf
+	andprof \
+	include\
+	source/fitz\
+	source/pdf
 
 LOCAL_MODULE:= mupdf
 LOCAL_SRC_FILES := mupdf.c

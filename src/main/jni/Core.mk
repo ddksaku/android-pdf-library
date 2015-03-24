@@ -1,8 +1,9 @@
 LOCAL_PATH := $(call my-dir)
-MY_ROOT := $(LOCAL_PATH)
-
 
 include $(CLEAR_VARS)
+
+
+MY_ROOT :=..
 
 ifeq ($(TARGET_ARCH),arm)
 LOCAL_CFLAGS += -DARCH_ARM -DARCH_THUMB -DARCH_ARM_CAN_LOAD_UNALIGNED
@@ -19,50 +20,51 @@ LOCAL_CFLAGS += -DHAVE_OPENSSL
 endif
 
 LOCAL_C_INCLUDES := \
-	$(LOCAL_PATH)/thirdparty/jbig2dec \
-	$(LOCAL_PATH)/thirdparty/openjpeg/libopenjpeg \
-	$(LOCAL_PATH)/thirdparty/jpeg \
-	$(LOCAL_PATH)/thirdparty/mujs \
-	$(LOCAL_PATH)/thirdparty/zlib \
-	$(LOCAL_PATH)/thirdparty/freetype/include \
-	$(LOCAL_PATH)/source/fitz \
-	$(LOCAL_PATH)/source/pdf \
-	$(LOCAL_PATH)/source/xps \
-	$(LOCAL_PATH)/source/cbz \
-	$(LOCAL_PATH)/source/img \
-	$(LOCAL_PATH)/source/tiff \
-	$(LOCAL_PATH)/scripts/freetype \
-	$(LOCAL_PATH)/scripts/jpeg \
-	$(LOCAL_PATH)/scripts/openjpeg \
-	$(LOCAL_PATH)/generated \
-	$(LOCAL_PATH)/resources \
-	$(LOCAL_PATH)/include \
-	$(LOCAL_PATH)
+	thirdparty/jbig2dec \
+	thirdparty/openjpeg/libopenjpeg \
+	thirdparty/jpeg \
+	thirdparty/mujs \
+	thirdparty/zlib \
+	thirdparty/freetype/include \
+	source/fitz\
+	source/pdf \
+	source/xps \
+	source/cbz \
+	source/img \
+	source/tiff \
+	scripts/freetype \
+	scripts/jpeg \
+	scripts/openjpeg \
+	generated \
+	resources \
+	include \
+
+
 ifdef V8_BUILD
-LOCAL_C_INCLUDES += $(LOCAL_PATH)/thirdparty/$(V8)/include
+LOCAL_C_INCLUDES += thirdparty/$(V8)/include
 endif
 ifdef SSL_BUILD
-LOCAL_C_INCLUDES += $(LOCAL_PATH)/thirdparty/openssl/include
+LOCAL_C_INCLUDES += thirdparty/openssl/include
 endif
 
 LOCAL_MODULE:= mupdfcore
 LOCAL_SRC_FILES := \
-	$(wildcard $(LOCAL_PATH)/source/fitz/*.c)\
-	$(wildcard $(LOCAL_PATH)/source/pdf/*.c)\
-	$(wildcard $(LOCAL_PATH)/source/xps/*.c)\
-	$(wildcard $(LOCAL_PATH)/source/cbz/*.c)\
-	$(wildcard $(LOCAL_PATH)/source/img/*.c)\
-	$(wildcard $(LOCAL_PATH)/source/tiff/*.c)
+	$(wildcard source/fitz/*.c)\
+	$(wildcard source/pdf/*.c)\
+	$(wildcard source/xps/*.c)\
+	$(wildcard source/cbz/*.c)\
+	$(wildcard source/img/*.c)\
+	$(wildcard source/tiff/*.c)
 LOCAL_SRC_FILES += \
-	$(LOCAL_PATH)/source/pdf/js/pdf-js.c \
-	$(LOCAL_PATH)/source/pdf/js/pdf-jsimp-mu.c
+	source/pdf/js/pdf-js.c\
+	source/pdf/js/pdf-jsimp-mu.c
 
 ifdef MEMENTO
-    LOCAL_SRC_FILES += $(MY_ROOT)/source/fitz/memento.c
+    LOCAL_SRC_FILES += source/fitz/memento.c
 endif
 
 LOCAL_LDLIBS    := -lm -llog -ljnigraphics
 
-LOCAL_SRC_FILES := $(addprefix ../, $(LOCAL_SRC_FILES))
+
 
 include $(BUILD_STATIC_LIBRARY)
