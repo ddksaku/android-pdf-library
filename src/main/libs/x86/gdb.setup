@@ -1,0 +1,3 @@
+set solib-search-path H:/DATA-SB/android_work/android-pdf-library/src/main//obj/local/x86
+source E:/MobileTools/android-ndk-r10d/prebuilt/common/gdb/common.setup
+directory E:/MobileTools/android-ndk-r10d/platforms/android-9/arch-x86/usr/include andprof source/fitz source/pdf H:/DATA-SB/android_work/android-pdf-library/src/main//jni thirdparty/jbig2dec thirdparty/openjpeg/libopenjpeg thirdparty/jpeg thirdparty/mujs thirdparty/zlib thirdparty/freetype/include source/xps source/cbz source/img source/tiff scripts/freetype scripts/jpeg scripts/openjpeg generated resources E:/MobileTools/android-ndk-r10d/sources/cxx-stl/system

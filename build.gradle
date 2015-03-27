@@ -22,7 +22,7 @@ android {
         versionName "1.0"
 
         ndk {
-            moduleName "Mupdf"
+            moduleName "mupdf"
           //  ldLibs "log", "mupdf"
             cFlags "-DANDROID_NDK -DDISABLE_IMPORTGL"
             stl "stlport_static"
