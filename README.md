@@ -26,9 +26,10 @@ Sdk is updated to android v-21, android ndk is updated v-10
     * mupdf.c
 
 
-Compile can be done  via 2 ways .
+Compile can be done  via 2 ways
+
     * gradle build
-    * nkd-build command.
+    * nkd-build command
 
 
 Compiled .so files are place in src/main/obj/local
