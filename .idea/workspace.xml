@@ -2,132 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6fd4c160-f8ab-4b66-acb6-5fb1f3f969d2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/jni/resources/fonts/urw/NimbusMono-Bold.cff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/jni/resources/fonts/urw/NimbusMono-BoldOblique.cff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/jni/resources/fonts/urw/NimbusMono-Oblique.cff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/jni/resources/fonts/urw/NimbusMono-Regular.cff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/jni/resources/fonts/urw/NimbusRomNo9L-Med.cff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/jni/resources/fonts/urw/NimbusRomNo9L-MedIta.cff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/jni/resources/fonts/urw/NimbusRomNo9L-Reg.cff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/jni/resources/fonts/urw/NimbusRomNo9L-RegIta.cff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/jni/resources/fonts/urw/NimbusSanL-Bol.cff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/jni/resources/fonts/urw/NimbusSanL-BolIta.cff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/jni/resources/fonts/urw/NimbusSanL-Reg.cff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/jni/resources/fonts/urw/NimbusSanL-RegIta.cff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/jni/thirdparty/jpeg/jdosabcc.obj" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/jni/thirdparty/jpeg/jdosamsc.obj" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/jni/thirdparty/jbig2dec/.cvsignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/jni/thirdparty/freetype/docs/VERSION.DLL" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/jni/thirdparty/jpeg/change.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/jni/include/mupdf/html.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/jni/include/mupdf/pdf/interpret.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/jni/thirdparty/jpeg/jdosaobj.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/jni/thirdparty/zlib/contrib/vstudio/vc10/miniunz.vcxproj.user" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/jni/thirdparty/zlib/contrib/vstudio/vc10/minizip.vcxproj.user" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/jni/resources/pdf/names.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/jni/thirdparty/openjpeg/opj_config.h.in.user" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/jni/thirdparty/jpeg/readme.dos" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/jni/thirdparty/zlib/contrib/vstudio/vc10/testzlib.vcxproj.user" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/jni/thirdparty/zlib/contrib/vstudio/vc10/testzlibdll.vcxproj.user" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/jni/include/mupdf/fitz/unzip.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/jni/thirdparty/zlib/contrib/vstudio/vc10/zlibstat.vcxproj.user" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/jni/thirdparty/zlib/contrib/vstudio/vc10/zlibvc.vcxproj.user" />
-      <change type="DELETED" beforePath="F:\DATA-SB\android_work\android-pdf-library\src\main\jni\include\mupdf\cbz.h" afterPath="" />
-      <change type="DELETED" beforePath="F:\DATA-SB\android_work\android-pdf-library\src\main\jni\include\mupdf\img.h" afterPath="" />
-      <change type="DELETED" beforePath="F:\DATA-SB\android_work\android-pdf-library\src\main\jni\include\mupdf\tiff.h" afterPath="" />
-      <change type="DELETED" beforePath="F:\DATA-SB\android_work\android-pdf-library\src\main\jni\source\tiff\mutiff.c" afterPath="" />
-      <change type="DELETED" beforePath="F:\DATA-SB\android_work\android-pdf-library\src\main\libs\armeabi-v7a\gdb.setup" afterPath="" />
-      <change type="DELETED" beforePath="F:\DATA-SB\android_work\android-pdf-library\src\main\libs\armeabi-v7a\gdbserver" afterPath="" />
-      <change type="DELETED" beforePath="F:\DATA-SB\android_work\android-pdf-library\src\main\libs\armeabi-v7a\libmupdf.so" afterPath="" />
-      <change type="DELETED" beforePath="F:\DATA-SB\android_work\android-pdf-library\src\main\libs\x86\gdb.setup" afterPath="" />
-      <change type="DELETED" beforePath="F:\DATA-SB\android_work\android-pdf-library\src\main\libs\x86\gdbserver" afterPath="" />
-      <change type="DELETED" beforePath="F:\DATA-SB\android_work\android-pdf-library\src\main\libs\x86\libmupdf.so" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.2/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/obj/local/armeabi-v7a/objs/mupdfcore/source/fitz/context.o" afterPath="$PROJECT_DIR$/src/main/obj/local/armeabi-v7a/objs/mupdfcore/source/fitz/context.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/obj/local/x86/objs/mupdfcore/source/fitz/context.o" afterPath="$PROJECT_DIR$/src/main/obj/local/x86/objs/mupdfcore/source/fitz/context.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/obj/local/armeabi-v7a/objs/mupdfcore/source/fitz/draw-device.o" afterPath="$PROJECT_DIR$/src/main/obj/local/armeabi-v7a/objs/mupdfcore/source/fitz/draw-device.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/obj/local/x86/objs/mupdfcore/source/fitz/draw-device.o" afterPath="$PROJECT_DIR$/src/main/obj/local/x86/objs/mupdfcore/source/fitz/draw-device.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.2/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.2/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/obj/local/armeabi-v7a/libmupdf.so" afterPath="$PROJECT_DIR$/src/main/obj/local/armeabi-v7a/libmupdf.so" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/obj/local/x86/libmupdf.so" afterPath="$PROJECT_DIR$/src/main/obj/local/x86/libmupdf.so" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/obj/local/armeabi-v7a/libmupdfcore.a" afterPath="$PROJECT_DIR$/src/main/obj/local/armeabi-v7a/libmupdfcore.a" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/obj/local/x86/libmupdfcore.a" afterPath="$PROJECT_DIR$/src/main/obj/local/x86/libmupdfcore.a" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/outputFileStates.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.2/taskArtifacts/outputFileStates.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.2/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/jni/Android.mk" afterPath="$PROJECT_DIR$/src/main/jni/Android.mk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/jni/Application.mk" afterPath="$PROJECT_DIR$/src/main/jni/Application.mk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/androidTest/java/com/example/admin/android_pdf_library/ApplicationTest.java" afterPath="$PROJECT_DIR$/src/androidTest/java/com/example/admin/android_pdf_library/ApplicationTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/jni/Core.mk" afterPath="$PROJECT_DIR$/src/main/jni/Core.mk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/jni/ThirdParty.mk" afterPath="$PROJECT_DIR$/src/main/jni/ThirdParty.mk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-pdf-library.iml" afterPath="$PROJECT_DIR$/android-pdf-library.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/jni/include/mupdf/pdf/annot.h" afterPath="$PROJECT_DIR$/src/main/jni/include/mupdf/pdf/annot.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/jni/include/mupdf/fitz/annotation.h" afterPath="$PROJECT_DIR$/src/main/jni/include/mupdf/fitz/annotation.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/jni/include/mupdf/pdf/appearance.h" afterPath="$PROJECT_DIR$/src/main/jni/include/mupdf/pdf/appearance.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/jni/include/mupdf/pdf/cmap.h" afterPath="$PROJECT_DIR$/src/main/jni/include/mupdf/pdf/cmap.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/jni/include/mupdf/fitz/colorspace.h" afterPath="$PROJECT_DIR$/src/main/jni/include/mupdf/fitz/colorspace.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/jni/include/mupdf/fitz/compressed-buffer.h" afterPath="$PROJECT_DIR$/src/main/jni/include/mupdf/fitz/compressed-buffer.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/jni/source/fitz/context.c" afterPath="$PROJECT_DIR$/src/main/jni/source/fitz/context.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/jni/include/mupdf/fitz/context.h" afterPath="$PROJECT_DIR$/src/main/jni/include/mupdf/fitz/context.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/jni/include/mupdf/pdf/crypt.h" afterPath="$PROJECT_DIR$/src/main/jni/include/mupdf/pdf/crypt.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/jni/include/mupdf/fitz/device.h" afterPath="$PROJECT_DIR$/src/main/jni/include/mupdf/fitz/device.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/jni/include/mupdf/fitz/display-list.h" afterPath="$PROJECT_DIR$/src/main/jni/include/mupdf/fitz/display-list.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/jni/include/mupdf/fitz/document.h" afterPath="$PROJECT_DIR$/src/main/jni/include/mupdf/fitz/document.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/jni/include/mupdf/pdf/document.h" afterPath="$PROJECT_DIR$/src/main/jni/include/mupdf/pdf/document.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/jni/source/fitz/draw-device.c" afterPath="$PROJECT_DIR$/src/main/jni/source/fitz/draw-device.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/jni/include/mupdf/pdf/event.h" afterPath="$PROJECT_DIR$/src/main/jni/include/mupdf/pdf/event.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/jni/include/mupdf/pdf/field.h" afterPath="$PROJECT_DIR$/src/main/jni/include/mupdf/pdf/field.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/jni/include/mupdf/fitz/filter.h" afterPath="$PROJECT_DIR$/src/main/jni/include/mupdf/fitz/filter.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/jni/include/mupdf/fitz.h" afterPath="$PROJECT_DIR$/src/main/jni/include/mupdf/fitz.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/jni/include/mupdf/fitz/font.h" afterPath="$PROJECT_DIR$/src/main/jni/include/mupdf/fitz/font.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/jni/include/mupdf/pdf/font.h" afterPath="$PROJECT_DIR$/src/main/jni/include/mupdf/pdf/font.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/jni/include/mupdf/fitz/function.h" afterPath="$PROJECT_DIR$/src/main/jni/include/mupdf/fitz/function.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/jni/include/mupdf/fitz/glyph-cache.h" afterPath="$PROJECT_DIR$/src/main/jni/include/mupdf/fitz/glyph-cache.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/jni/include/mupdf/fitz/hash.h" afterPath="$PROJECT_DIR$/src/main/jni/include/mupdf/fitz/hash.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/jni/include/mupdf/fitz/image.h" afterPath="$PROJECT_DIR$/src/main/jni/include/mupdf/fitz/image.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/jni/include/mupdf/pdf/javascript.h" afterPath="$PROJECT_DIR$/src/main/jni/include/mupdf/pdf/javascript.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/jni/include/mupdf/fitz/link.h" afterPath="$PROJECT_DIR$/src/main/jni/include/mupdf/fitz/link.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/jni/include/mupdf/fitz/meta.h" afterPath="$PROJECT_DIR$/src/main/jni/include/mupdf/fitz/meta.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/jni/mupdf.c" afterPath="$PROJECT_DIR$/src/main/jni/mupdf.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/jni/include/mupdf/pdf/object.h" afterPath="$PROJECT_DIR$/src/main/jni/include/mupdf/pdf/object.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/jni/include/mupdf/fitz/outline.h" afterPath="$PROJECT_DIR$/src/main/jni/include/mupdf/fitz/outline.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/jni/include/mupdf/fitz/output-pcl.h" afterPath="$PROJECT_DIR$/src/main/jni/include/mupdf/fitz/output-pcl.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/jni/include/mupdf/pdf/output-pdf.h" afterPath="$PROJECT_DIR$/src/main/jni/include/mupdf/pdf/output-pdf.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/jni/include/mupdf/fitz/output-png.h" afterPath="$PROJECT_DIR$/src/main/jni/include/mupdf/fitz/output-png.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/jni/include/mupdf/fitz/output-pnm.h" afterPath="$PROJECT_DIR$/src/main/jni/include/mupdf/fitz/output-pnm.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/jni/include/mupdf/fitz/output-pwg.h" afterPath="$PROJECT_DIR$/src/main/jni/include/mupdf/fitz/output-pwg.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/jni/include/mupdf/fitz/output.h" afterPath="$PROJECT_DIR$/src/main/jni/include/mupdf/fitz/output.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/jni/include/mupdf/pdf/page.h" afterPath="$PROJECT_DIR$/src/main/jni/include/mupdf/pdf/page.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/jni/include/mupdf/pdf/parse.h" afterPath="$PROJECT_DIR$/src/main/jni/include/mupdf/pdf/parse.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/jni/include/mupdf/fitz/path.h" afterPath="$PROJECT_DIR$/src/main/jni/include/mupdf/fitz/path.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/jni/include/mupdf/pdf.h" afterPath="$PROJECT_DIR$/src/main/jni/include/mupdf/pdf.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/jni/include/mupdf/fitz/pixmap.h" afterPath="$PROJECT_DIR$/src/main/jni/include/mupdf/fitz/pixmap.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/jni/include/mupdf/pdf/resource.h" afterPath="$PROJECT_DIR$/src/main/jni/include/mupdf/pdf/resource.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/jni/include/mupdf/fitz/shade.h" afterPath="$PROJECT_DIR$/src/main/jni/include/mupdf/fitz/shade.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/jni/include/mupdf/fitz/store.h" afterPath="$PROJECT_DIR$/src/main/jni/include/mupdf/fitz/store.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/jni/include/mupdf/fitz/stream.h" afterPath="$PROJECT_DIR$/src/main/jni/include/mupdf/fitz/stream.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/jni/include/mupdf/fitz/string.h" afterPath="$PROJECT_DIR$/src/main/jni/include/mupdf/fitz/string.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/jni/include/mupdf/fitz/structured-text.h" afterPath="$PROJECT_DIR$/src/main/jni/include/mupdf/fitz/structured-text.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/jni/include/mupdf/fitz/text.h" afterPath="$PROJECT_DIR$/src/main/jni/include/mupdf/fitz/text.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/jni/include/mupdf/fitz/transition.h" afterPath="$PROJECT_DIR$/src/main/jni/include/mupdf/fitz/transition.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/jni/include/mupdf/fitz/tree.h" afterPath="$PROJECT_DIR$/src/main/jni/include/mupdf/fitz/tree.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/jni/include/mupdf/pdf/widget.h" afterPath="$PROJECT_DIR$/src/main/jni/include/mupdf/pdf/widget.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/jni/include/mupdf/fitz/write-document.h" afterPath="$PROJECT_DIR$/src/main/jni/include/mupdf/fitz/write-document.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/jni/include/mupdf/fitz/xml.h" afterPath="$PROJECT_DIR$/src/main/jni/include/mupdf/fitz/xml.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/jni/include/mupdf/xps.h" afterPath="$PROJECT_DIR$/src/main/jni/include/mupdf/xps.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/jni/include/mupdf/pdf/xref.h" afterPath="$PROJECT_DIR$/src/main/jni/include/mupdf/pdf/xref.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="app.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -160,20 +35,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-21.76" vertical-offset="0" max-vertical-offset="646">
-              <caret line="32" column="50" selection-start-line="32" selection-start-column="50" selection-end-line="32" selection-end-column="50" />
+            <state vertical-scroll-proportion="0.23181818" vertical-offset="0" max-vertical-offset="646">
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.15454546" vertical-offset="0" max-vertical-offset="440">
+            <state vertical-scroll-proportion="-2.72" vertical-offset="0" max-vertical-offset="170">
               <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
               <folding />
             </state>
@@ -1120,8 +995,8 @@
         <option value="$PROJECT_DIR$/src/main/jni/Core.mk" />
         <option value="$PROJECT_DIR$/src/main/jni/ThirdParty.mk" />
         <option value="$PROJECT_DIR$/src/androidTest/java/com/example/admin/android_pdf_library/ApplicationTest.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -1418,7 +1293,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962447" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962447" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1431,7 +1306,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32823366" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31527779" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31527779" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1821,18 +1696,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-21.76" vertical-offset="0" max-vertical-offset="646">
-          <caret line="32" column="50" selection-start-line="32" selection-start-column="50" selection-end-line="32" selection-end-column="50" />
+        <state vertical-scroll-proportion="-2.72" vertical-offset="0" max-vertical-offset="170">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15454546" vertical-offset="0" max-vertical-offset="440">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.23181818" vertical-offset="0" max-vertical-offset="646">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
       </provider>
