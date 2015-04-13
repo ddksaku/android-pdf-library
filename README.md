@@ -7,22 +7,22 @@ Sdk is updated to android v-21, android ndk is updated v-10
 
 
 *USASGE*
-*-Add all related holders  to src/main/jni from ghostscript*
-    -andprof
-    -docs
-    -generated
-    -include
-    -resources
-    -scripts
-    -source
-    -thirdparty
+*Add all related holders  to src/main/jni from ghostscript*
+    - andprof
+    - docs
+    - generated
+    - include
+    - resources
+    - scripts
+    - source
+    - thirdparty
 *-Add android mk files to src/main/jni*
-    -android.mk
-    -Application.mk
-    -Core.mk
-    -ThirdParty.mk
+    - android.mk
+    - Application.mk
+    - Core.mk
+    - ThirdParty.mk
 *-Add C file*
-    -mupdf.c
+    - mupdf.c
 
 
 Compile can be done  via 2 ways .
