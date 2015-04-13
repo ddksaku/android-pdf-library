@@ -52,7 +52,7 @@ fz_free_context(fz_context *ctx)
 	fz_drop_document_handler_context(ctx);
 	fz_drop_glyph_cache_context(ctx);
 	fz_drop_store_context(ctx);
-	fz_free_aa_context(ctx);
+//	fz_free_aa_context(ctx);
 	fz_drop_colorspace_context(ctx);
 	fz_drop_font_context(ctx);
 	fz_drop_id_context(ctx);

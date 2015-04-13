@@ -1,7 +1,7 @@
 LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
-
+#add third party headers
 LOCAL_C_INCLUDES := \
 	thirdparty/jbig2dec \
 	thirdparty/openjpeg/libopenjpeg \
@@ -25,6 +25,7 @@ ifdef MEMENTO
 LOCAL_CFLAGS += -DMEMENTO -DMEMENTO_LEAKONLY
 endif
 
+#add third party source files
 LOCAL_MODULE:= mupdfthirdparty
 LOCAL_SRC_FILES := \
 	thirdparty/mujs/one.c \

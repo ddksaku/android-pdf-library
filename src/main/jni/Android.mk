@@ -1,13 +1,11 @@
 LOCAL_PATH := $(call my-dir)
-
 ifdef NDK_PROFILER
 include android-ndk-profiler.mk
 endif
 
+#add sub make files ,core.mk,ThirdParty.mk
 include $(LOCAL_PATH)/Core.mk
 include $(LOCAL_PATH)/ThirdParty.mk
-
-
 
 include $(CLEAR_VARS)
 

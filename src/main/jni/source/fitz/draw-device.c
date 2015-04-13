@@ -2064,7 +2064,7 @@ fz_draw_free_user(fz_device *devp)
 		fz_free(ctx, dev->stack);
 	fz_free_scale_cache(ctx, dev->cache_x);
 	fz_free_scale_cache(ctx, dev->cache_y);
-	fz_free_gel(dev->gel);
+//	fz_free_gel(dev->gel);
 	fz_free(ctx, dev);
 }
 
@@ -2100,7 +2100,7 @@ fz_new_draw_device(fz_context *ctx, fz_pixmap *dest)
 	{
 		fz_free_scale_cache(ctx, ddev->cache_x);
 		fz_free_scale_cache(ctx, ddev->cache_y);
-		fz_free_gel(ddev->gel);
+//		fz_free_gel(ddev->gel);
 		fz_free(ctx, ddev);
 		fz_rethrow(ctx);
 	}
@@ -2177,7 +2177,7 @@ fz_bound_path_accurate(fz_context *ctx, fz_irect *bbox, const fz_irect *scissor,
 	else
 		fz_flatten_fill_path(gel, path, ctm, flatness);
 	fz_bound_gel(gel, bbox);
-	fz_free_gel(gel);
+//	fz_free_gel(gel);
 
 	return bbox;
 }
